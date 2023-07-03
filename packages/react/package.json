@@ -1,6 +1,6 @@
 {
-  "name": "@ignite-ui/react",
-  "version": "1.0.0",
+  "name": "@nego-tech/react",
+  "version": "2.0.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -11,9 +11,9 @@
     "lint": "eslint src/**/*.ts* --fix"
   },
   "devDependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@nego-tech/eslint-config": "*",
+    "@nego-tech/tokens": "*",
+    "@nego-tech/ts-config": "*",
     "@types/react": "^18.0.35",
     "@types/react-dom": "^18.0.11",
     "react": "^18.2.0",

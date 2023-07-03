@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@nego-tech/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,10 +14,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@nego-tech/eslint-config": "*",
+    "@nego-tech/react": "*",
+    "@nego-tech/tokens": "*",
+    "@nego-tech/ts-config": "*",
     "@storybook/addon-a11y": "^7.0.25",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
