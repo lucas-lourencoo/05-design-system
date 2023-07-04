@@ -1,8 +1,8 @@
-import { StoryObj, Meta } from "@storybook/react";
-import { Box, BoxProps, Text } from "@nego-tech/react";
+import { StoryObj, Meta } from '@storybook/react'
+import { Box, BoxProps, Text } from '@nego-tech/react'
 
 export default {
-  title: "Surfaces/Box",
+  title: 'Surfaces/Box',
   component: Box,
   args: {
     children: (
@@ -14,10 +14,10 @@ export default {
   argTypes: {
     children: {
       control: {
-        type: "null",
+        type: 'null',
       },
     },
   },
-} as Meta<BoxProps>;
+} as Meta<BoxProps>
 
-export const Primary: StoryObj<BoxProps> = {};
+export const Primary: StoryObj<BoxProps> = {}

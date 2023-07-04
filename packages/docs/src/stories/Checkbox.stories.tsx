@@ -1,8 +1,8 @@
-import { StoryObj, Meta } from "@storybook/react";
-import { Box, Text, Checkbox, CheckboxProps } from "@nego-tech/react";
+import { StoryObj, Meta } from '@storybook/react'
+import { Box, Text, Checkbox, CheckboxProps } from '@nego-tech/react'
 
 export default {
-  title: "Form/Checkbox",
+  title: 'Form/Checkbox',
   component: Checkbox,
   args: {},
   decorators: [
@@ -11,18 +11,18 @@ export default {
         <Box
           as="label"
           css={{
-            display: "flex",
-            flexDirection: "row",
-            gap: "$2",
-            alignItems: "center",
+            display: 'flex',
+            flexDirection: 'row',
+            gap: '$2',
+            alignItems: 'center',
           }}
         >
           {Story()}
           <Text size="sm">Accept terms of use</Text>
         </Box>
-      );
+      )
     },
   ],
-} as Meta<CheckboxProps>;
+} as Meta<CheckboxProps>
 
-export const Primary: StoryObj<CheckboxProps> = {};
+export const Primary: StoryObj<CheckboxProps> = {}
